@@ -1,0 +1,38 @@
+So lets say, there is a company who is asking for donation or charity, project, business from public
+
+Public donated or gave money to the company 
+
+What if when company have enough amount from donation then they ran away or they use it for other purpose ?
+					|
+					v
+		THIS PROBLEM CAN BE SOLVED BY SMART CONTRACT DESIGN
+--------------------------------------------------------------------------------------------------------------
+
+--------------				--------------------
+|CONTRIBUTORS|	X---- No -------------X |MANAGER OF COMPANY|	->   Sets the target for crowd funding like - deadline, target Amount, minimum contribution
+--------------	   DIRECT		--------------------
+  ^   | 	  DONATION                             ^
+  |   |		     OR                                |
+  |   |		CONTRIBUTION                           |
+  |   |                                                |
+  |   |						       |
+  |   |	                                               |
+  |    ---				               |
+  |    	  \				               |
+  |        \                                           |
+  |         \                                          |
+  |          \                                         |
+  |           \                                        |
+  |            \                                       |
+  |             \                                      |
+  |              v                                     |
+  |        -------------------------------             |
+  ---------|      SMART CONTRACT         |--------------
+           -------------------------------
+
+
+1. Contributors will not directly send money to manager.
+2. Contributors will donate and there amount goes to smart contract.
+3. If targeted amount not reached before deadline then contributor will have there money returned.
+4. Manager will set the targets
+5. Manager will take money from smart contract after contributors voting
